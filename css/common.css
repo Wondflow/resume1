@@ -1,0 +1,70 @@
+body
+{
+	width: 1024px;
+	margin:50px auto;
+}
+a
+{
+	text-decoration: none;
+	
+}
+ul,li
+{
+	padding:0;
+	margin: 0;
+}
+//头部
+#header
+{
+	width: 1024px;
+	height: 350px;
+	background: bisque;
+}
+.img-responsive
+{
+	display: inline-block;
+	width:1024px;
+	height:300px;
+}
+//导航栏
+#nav 
+{
+	width: 1024;
+	height: 50px;
+	background:burlywood;
+}
+
+#nav li, a
+{
+	width: 204px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+}
+#nav ul
+{
+	border: 1px solid #E8E8E8;
+	/*background: #FFCACA;*/
+	background: #9dc8ea
+}
+/*主内容*/
+#content
+{
+	width: 1024px;
+	height:600px;
+	border: 1px solid #E8E8E8;
+}
+/*尾部*/
+#footer
+{
+	width: 1024;
+	height:80px;
+	border: 1px solid #E8E8E8;
+}
+#footer p
+{
+	text-align: center;
+	font-size: 18px;
+	margin: 30px auto;
+}

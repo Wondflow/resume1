@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="../style/index2.css" rel="stylesheet" type="text/css" />
+	<script language="javascript" type="text/javascript">
+	var i=0;
+	var x1;
+	var tid=setInterval("fun1()",1000);
+	function fun1()
+	{
+		i++;
+		i=i%5;
+		var img1=document.getElementById("img1");
+		img1.src="../image/"+i+".jpg";
+	}
+		function show(num)
+		{
+			if(num==1)
+			{
+				clearInterval(tid);
+			}
+			if(num==2)
+			{
+				tid=setInterval("fun1()",1000);
+			}
+		}
+</script>
+</head>
+
+<body>
+		<div id="header">
+        		<img src="../images/003.JPG" width="900px" />
+        		<div id="nav">
+                	<ul>
+                    	<li><a href="#">首页</a></li>
+                        <li><a href="#">机构设置</a></li>
+                        <li><a href="#">规章制度</a></li>
+                        <li><a href="#">教学研究</a></li>
+                        <li><a href="#">教学评估</a></li>
+                        <li><a href="#">教务管理</a></li>
+                        <li><a href="#">考试管理</a></li>
+                        <li><a href="#">学籍管理</a></li>
+                        <li><a href="#">实践教学</a></li>
+                        <li><a href="#">教材管理</a></li>
+                        <li><a href="#">办事指南</a></li>
+                        <li><a href="#">相关下载</a></li>
+                        <li><a href="#">学籍管理</a></li>
+                        <li><a href="#">招生信息</a></li>
+                    </ul>
+                </div>
+        </div>
+        <div id="left">
+        	<div id="first">
+            	<p>资源中心</p>
+                <ul>
+                	<li><a href="#"><img src="../images/0001.JPG" width="180" height="30"/></a></li>
+                    <li><a href="#"><img src="../images/0002.JPG" width="180" height="30"/></a></li>
+                    <li><a href="#"><img src="../images/0003.JPG" width="180" height="30"/ ></a></li>
+                    <li><a href="#"><img src="../images/0004.JPG" width="180" height="30"/></a></li>
+                    <li><a href="#"><img src="../images/0005.JPG" width="180" height="30"/></a></li>
+                    <li><a href="#"><img src="../images/0006.JPG" width="180" height="30"/></a></li>
+                    <li><a href="#"><img src="../images/0007.JPG" width="180" height="30"/></a></li>
+                    <li><a href="#"><img src="../images/0008.JPG" width="180" height="30"/></a></li>
+                    <li><a href="#"><img src="../images/0009.JPG" width="180" height="30"/></a></li>
+                </ul>
+            </div>
+            <div id="second">
+            	<p>站内搜索</p><br />
+                <input type="text" width="40"/>
+                <input type="button" value="搜索"  />
+            </div>
+            <div id="third">
+            	<p>教学日历<span ><a href="#">更多</a></span></p>
+                <img src="../images/00.JPG"  height="150"/>
+            </div>
+            <div id="fourth">
+            	<p>友情链接</p>
+                <select class="op1">
+                	<option class="op1">--网站导航</option>
+                </select>
+            </div>
+        </div>
+        <div id="right">
+        	<div id="one">
+               <div id="one1">
+            	<p>公告通知<span ><a href="#">更多</a></span></p>
+                <ul>
+                <li><a href="#">关于落实往届生领取毕业证书工作的通知</a><span>2016-12-19</span></li>
+                <li><a href="#">2015、2016级本科生体育俱乐部选课通知</a><span>2016-12-19</span></li>
+                <li><a href="#">关于往届生领取毕业证书通知</a><span>2016-11-28</span></li>
+                <li><a href="#">重修报名数据公布</a><span>2016-11-22</span></li>
+                <li><a href="#">双学位（双专业）辅修补缴学费通知</a><span>2016-11-21</span></li>
+                <li><a href="#">公布2015级双学位辅修专业录取名单通知</a><span>2016-11-21</span></li>
+                <li><a href="#">重修补报名通知及第一轮报名数据</a><span>2016-11-14</span></li>
+                <li><a href="#">2016-2017学年度第二学期重修报名通知</a><span>2016-11-03</span></li>
+                <li><a href="#">2015级双学位（双专业）辅修专业改报、确认通知</a><span>2016-10-25</span></li>
+                <li><a href="#">全日制本科学生火车票优惠卡充值及订购通知</a><span>2016-10-18</span></li>
+                
+                </ul>
+                </div>
+                <div id="one2"><img id="img1"  width="210" height="210"  src="../image/0.jpg" onmouseover="show(1)" onmouseout="show(2)" /></div>
+            </div>
+            <div id="two">
+            	<div id="two1">
+                     <p>教育快讯<span ><a href="#">更多</a></span></p>
+                     <ul>
+                     	<li><a href="#">学校举行课程建设研讨会</a><span>2016-03-21</span></li>
+                        <li><a href="#">2015年下半年大学英语四、六级考试顺利举行</a><span>2015-12-21</span></li>
+                        <li><a href="#">MOOCs让教育教学变得更好--江志斌教授莅临我校...</a><span>2015-11-06</span></li>
+                        <li><a href="#">港澳机器人学院2015级开班仪式隆重举行</a><span>015-10-01</span></li>
+                        <li><a href="#">学校举行“高等数学”课程教学研讨会</a><span>2015-09-23</span></li>
+                        <li><a href="#">学校举行“机器人学院与创新人才培养专题报告”...</a><span>2015-09-11</span></li>
+                        <li><a href="#">联合筹办机器人学院，面向产业领域多专业融...</a><span>2015-09-02</span></li>
+                        <li><a href="#">考场快讯（六）</a><span>2015-07-19</span></li>
+                        <li><a href="#">考场快讯（五）</a><span>2015-07-10</span></li>
+                        <li><a href="#">考场快讯（四）</a><span>2015-07-10</span></li>
+                     </ul>
+                </div>
+                <div class="two2">
+                	<p>学生园地</p>
+                    <a href="#"><img src="../images/10.png" width="100" /></a><a href="#"><img src="../images/11.png" width="100"/></a><a href="#"><img src="../images/12.png" width="100"/></a><a href="#"><img src="../images/13.png" width="100"/></a>
+                </div>
+                 <div class="two2">
+                	<p>教师园地</p>
+                    <a href="#"><img src="../images/15.png"width="100" /></a><a href="#"><img src="../images/16.png" width="100"/></a><a href="#"><img src="../images/17.png"width="100"/></a><a href="#"><img src="../images/18.png"width="100"/></a>
+                </div>
+            </div>
+            <div id="three">
+            	<p>成果展示</p>
+                <ul>
+                	<li><img src="../images/1.jpg" width="230" height="200"/></li>
+                    <li><img src="../images/2.jpg" width="230" height="200"/></li>
+                    <li><img src="../images/3.jpg" width="230" height="200"/></li>
+                </ul>
+                <ul class="ul1">
+                	<li>MOOCs让教育教学变得更好...</li>
+                    <li>学校举行“高等数学”课程教...</li>
+                    <li>联合筹办机器人学院...</li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer">
+        	<p class="p">版权所有  广东工业大学  教务处</p>
+            <p class="p">地址：广州大学城外环西路100号广东工业大学  邮编：510006  Email：jwc@gdut.edu.cn</p>
+        </div>
+</body>
+</html>

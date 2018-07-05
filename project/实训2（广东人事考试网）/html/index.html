@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="../style/index.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript">
+	var i=0;
+	var x1;
+	var tid=setInterval("fun1()",1000);
+	function fun1()
+	{
+		i++;
+		i=i%2;
+		var img1=document.getElementById("img1");
+		img1.src="../image/"+i+".jpg";
+	}
+		function show(num)
+		{
+			if(num==1)
+			{
+				clearInterval(tid);
+			}
+			if(num==2)
+			{
+				tid=setInterval("fun1()",1000);
+			}
+		}
+</script>
+</head>
+
+<body>
+		<div id="header">
+            <span>欢迎进入广东人事考试网!</span>
+            <div id="time">
+             
+             <script type="text/javascript">
+				var today=new Date();
+				var year=today.getYear();
+				var month=today.getMonth()+1;
+				var date=today.getDate();
+				var day=today.getDay();
+				var dayName=new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
+				var hour=today.getHours();
+				var minute=today.getMinutes();
+				var second=today.getSeconds();
+				hour=(hour<10)? "0"+hour:hour;
+				minute=(minute<10)?"0"+minute:minute;
+				second=(second<10)?"0"+second:second;
+				var time=hour+":"+minute+":"+second;
+				document.write("今天是:"+year+"年"+month+"月"+date+"日"+time+" "+dayName[day]);
+				function show(li)
+				{
+					if(x1!=null)
+					{
+						x1.style.display="none";
+					}
+					var m1=li.getElementsByTagName("ul")[0];
+					m1.style.display="block";
+					x1=m1;
+				}
+            </script>
+			</div>
+         
+        	<div id="nav">
+               <div id="one">
+               
+                <ul class="ul1">
+                	<img src="../images/001.PNG" />
+                    <li><a href="#">工作动态</a></li>
+                    <li><a href="#">机构概况</a></li>
+                    <li><a href="#">联系方式</a></li>
+                    <li><a href="#">政策法规</a></li>
+                    <li><a href="#">公示公告</a></li>
+                    <li><a href="#">收费标准</a></li>
+                </ul>
+               </div>
+               <div id="two">
+                <ul class="ul1">
+                	<img src="../images/002.PNG" />
+                    <li><a href="#">办事指南</a></li>
+                    <li><a href="#">考试计划</a></li>
+                    <li><a href="#">报考文件</a></li>
+                    <li><a href="#">考试报名</a></li>
+                    <li><a href="#">准考证打印</a></li>
+                    <li><a href="#">成绩查询</a></li>
+                    <li><a href="#">合格标准</a></li>
+                    <li><a href="#">考后审核</a></li>
+                    <li><a href="#">制证动态</a></li>
+                    <li><a href="#">发证通知</a></li>
+                    <li><a href="#">证书验证</a></li>
+                    <li><a href="#">表格下载</a></li>
+                </ul>
+               </div>
+               <div id="three">
+                <ul class="ul1">
+                	<img src="../images/003.PNG" />
+                    <li><a href="#">常见问题</a></li>
+                    <li><a href="#">考试咨询</a></li>
+                    <li><a href="#">网上投诉</a></li>
+                </ul>
+               </div>
+            </div>
+        </div>
+        <div id="second">
+       	  <div id="search">
+                <img src="../images/0.PNG" height="25"/><span>重要公告：</span>广东省2016年下半年专业技术人员资格考试工作计划安排
+            <input type="button" value="搜索"  />
+            <input type="text" name="txt" placeholder="请输入搜索关键字"/>
+            </div>
+            <div id="left">
+            	<img id="img1" width="320" height="230" src="../image/0.jpg" onmouseover="show(1)" onmouseout="show(2)" />
+                
+                <p>省人事考试局荣获全国翻译资格考试 ”优秀...
+            </div>
+            <div id="middle">
+            	<div id="m1">
+            	<font color="#FF0000">&nbsp;&nbsp;工作动态</font><span class="more"><a href="#">更多>></a></span>
+               </div>
+                <div id="m2">
+                     <a href="#"><h3>2016年执业药师等5项专业技术人员资格考试顺利结束.....</h3></a>
+                      <a href="#"><p>10月15日-16日，我省2016年度执业药师、造价工程师、出版、房地产估价师、审计等5项专业技术人员资格考试顺利结束。… <span>[详细]</span></a>
+                      <hr />
+                      <ul>
+                          <li><a href="#">2016年度经济、药学、工业设计和翻译资格考试温馨提示</a></li>
+                          <li><a href="#">转发中国人事考试网《关于2016年度执业药师资格考试的重要提示》.....</a></li>
+                          <li><a href="#">2016年度执业药师、造价工程师。房地产估价师、审计，出版资....</a></li>
+                          <li><a href="#">广东省2016年下半年专业技术人员资格考试工作计划安排</a></li>
+                          <li><a href="#">2016年上半年广东省专业技术人员计算机应用能力考试圆满完成</a></li>
+                      </ul>
+                
+                </div>
+            </div>
+            <div id="right">
+                 <p>咨询服务</p>
+                 <ul>
+                 	<li><a href="#"><img src="../images/01.PNG" height="70" width="109"/></a></li>
+                    <li><a href="#"><img src="../images/02.PNG" height="70" width="109"/></a></li>
+                    <li><a href="#"><img src="../images/03.PNG" height="70" width="109"/></a></li>
+                    <li><a href="#"><img src="../images/04.PNG" height="70" width="109"/></a></li>
+                 </ul>
+            </div>
+        </div>
+        <div id="third">
+            	<ul id="b1">
+                	<li onmousemove="show(this)" class="b"><a href="rc.html">专业技术人员资格考试</a>
+                    	<ul id="c1">
+                        	<li><a href="#">人力资源社会保障部办公厅关于2016年度统计专业技术资</a></li>
+
+                            <li><a href="#">人力资源社会保障部办公厅关于2016保</a></li>
+                            
+                            <li><a href="#">关于发放省直考区2016年度上半年计算机区</a></li>
+                            
+                            <li><a href="#">关于发放2016年11月23日省直考区计算区</a></li>          
+                            <li><a href="#">人力资源社会保障部办公厅关于20有关力资源社会</a></li>
+                            <li><a href="#">公安机关面向公安院校公安专业毕业生考试录用公务员]</a></li>
+                            <li><a href="#">公安机关面向公安院校公安专业毕业生考试录用公务员]</a></li>
+                            <li><a href="#">[中央机关及其直属机构2017年度考试录用公务员笔试（广东考区）]</a></li>
+                            <li><a href="#">[中央机关及其直属机构2017年度考试录用公务员笔试（广东考区）]</a></li>
+                            <li><a href="#">中央机关及其直属机构2017年度考试录用公务员考场地理位置图和考场安排表</a></li>
+                              <li class="more1"><a href="#">更多</a></li>
+
+                        </ul>
+                    </li>
+                    <li onmousemove="show(this)" class="b"><a href="#">公务员考试</a>
+                    	<ul id="b2">
+                        	  <li><a href="#">[广东省纪委省监察厅公开选调公务员]</a></li>
+              
+                              <li><a href="#">广东省纪委省监察厅2016年公开选调公务员网上报名技术问答">广东省纪委省监察厅2016年公开选调公务员网上报名技术问答</a></li>
+                              
+                              
+                              <li><a href="#">[广东省纪委省监察厅公开选调公务员]</a></li>
+                              
+                              <li><a href="#">考生网上报名注意事项及说明">考生网上报名注意事项及说明</a></li>
+                              
+                              <li><a href="#">[广东省纪委省监察厅公开选调公务员]</a></li>
+                              
+                              <li><a href="#">广东省纪委省监察厅2016年公开选调公务员报名信息填写说明">广东省纪委省监察厅2016年公开选调公务员报名信息填写说明</a></li>
+                                <li class="more1"><a href="#">更多</a></li>
+                        </ul>
+                    </li>
+                    <li onmousemove="show(this)" class="b"><a href="#">其他考试</a>
+                    	<ul id="b3">
+                              <li><a href="#">2016年度省直机关工委直属单位公开选调参公人员公告">2016年度省直机关工委直属单位公开选调参公人员公告</a></li>
+              
+                              <li><a href="#">[广东省纪委省监察厅公开选调公务员]</a></li>
+                              
+                              <li><a href="#">报名时间及报名入口">报名时间及报名入口</a></li>
+                              
+                              
+                              <li><a href="#">[广东省纪委省监察厅公开选调公务员]</a></li>
+                              
+                              <li><a href="#">广东省纪委省监察厅2016年公开选调公务员网上报名技术问答">广东省纪委省监察厅2016年公开选调公务员网上报名技术问答</a></li>
+                              
+                              
+                              <li><a href="#">[广东省纪委省监察厅公开选调公务员]</a></li>
+                              
+                              <li><a href="#">考生网上报名注意事项及说明">考生网上报名注意事项及说明</a></li>
+                              
+                              <li><a href="#">[广东省纪委省监察厅公开选调公务员]</a></li>
+                              
+                              <li><a href="#">广东省纪委省监察厅2016年公开选调公务员报名信息填写说明"</a></li>
+                              <li class="more1"><a href="#">更多</a></li>
+         </ul>
+                    </li>
+                </ul>
+               
+        </div>
+        <div id="fourth">
+        	 <ul>
+             		<li><a href="#"><img src="../images/0001.PNG" height="100"/></a></li>
+                    <li><a href="#"><img src="../images/0002.PNG" height="100"/></a></li>
+                    <li><a href="#"><img src="../images/201611020835113049.jpg" /></a></li>
+                    <li><a href="#"><img src="../images/201610311157353336.jpg" /></a></li>
+                    
+             </ul>
+             <p>友情链接</p>
+             <ul>
+             		<li><a href="#"><img src="../images/201507220910009746_176_50.jpg" /></a></li>
+                    <li><a href="#"><img src="../images/201507220910127153_176_50.jpg" /></a></li>
+                     <li><a href="#"><img src="../images/0003.PNG"  width="176" height="50"/></a></li>
+                    <li><a href="#"><img src="../images/201507220913435534_176_50.jpg" /></a></li>
+                    <li><a href="#"><img src="../images/201507220914295221_176_50.jpg" /></a></li>
+             </ul>
+             <div class="t1">
+          <ul id="w1">
+             	<li>广东省人民政府网</li>
+
+                <li>广东省委组织部</li>
+                
+                <li>广东省人力资源和社会保障厅</li>
+                
+                <li>中国人事考试网</li>
+                <li>中国人事考试网</li>
+
+             </ul>
+             </div>
+        </div>
+        <div id="footter">
+        	<ul id="f1" >
+            	<li><a href="#">关于我们&nbsp;&nbsp;|</a></li>
+                <li><a href="#">联系我们&nbsp;&nbsp;|</a></li>
+                <li><a href="#">网站地图&nbsp;&nbsp;|</a></li>
+                <li><a href="#">电子地图&nbsp;&nbsp;|</a></li>
+                <li><a href="#">办公登录</a></li>
+            </ul>
+          
+            <ul id="f2" >
+                <li >地址：广州市天河路13号润粤大厦四楼电话：020-37605711</li>
+                <li>Copyright&copy; 2016 www.gdrsks.gov.cn All Rights Reserved 广东省人事考试局 版权所有 粤ICP备07504106号-3</li>
+                <li>总访问量：36673945人次</li>
+                </ul>
+                 <p><img src="../images/备案图标.png" />粤公网安备 44010402000431号<span><img src="../images/blue.png" /></span></p>
+                
+        </div>
+</body>
+</html>

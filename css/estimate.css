@@ -1,0 +1,47 @@
+div.img {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 200px;
+}
+
+div.img:hover {
+	border: 1px solid #777;
+}
+
+div.img img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align:center;
+}
+.responsive
+{
+	width: 200px;
+	height: auto;
+	margin: 30px 20px;
+	float: left;
+	animation: myfoot 2s linear;
+}
+.estimate
+{
+	float: left;
+	height: 100px;
+	width: 800px;
+	border: 1px solid #0099CC;
+	margin: 0 110px;
+	animation: myfoot 5s;
+}
+@keyframes myfoot{
+	from{transform: translate(1024px);}
+	to{transform: translate(0px);}
+}
+.estimate p
+{
+	margin-left: 20px;
+	line-height: 40px;
+}
+

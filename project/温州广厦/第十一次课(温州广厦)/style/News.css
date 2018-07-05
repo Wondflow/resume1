@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+#right ul li
+{
+	margin-top:5px;
+}
+#right ul li a
+{
+	font-size:12px;
+	text-decoration:none;
+}
+#right ul li a:hover
+{
+	color:#F30;
+	text-decoration:underline;
+}
+#right ul li span
+{
+	font-size:12px;
+	color:#999;
+}
+#right p
+{
+	text-align:center;
+	font-size:14px;
+	margin-top:50px;
+	color:#999;
+}
+
+

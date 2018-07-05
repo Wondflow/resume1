@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{584E67DF-5836-406B-A1D7-30772F137D34}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>门诊管理系统1</RootNamespace>
+    <AssemblyName>门诊管理系统1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bingrendengji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bingrendengji.Designer.cs">
+      <DependentUpon>bingrendengji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bingrenjilu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bingrenjilu.Designer.cs">
+      <DependentUpon>bingrenjilu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chuku.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chuku.Designer.cs">
+      <DependentUpon>chuku.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chukudanwei.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chukudanwei.Designer.cs">
+      <DependentUpon>chukudanwei.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="drug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="drug.Designer.cs">
+      <DependentUpon>drug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gonghuoshangshezhi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gonghuoshangshezhi.Designer.cs">
+      <DependentUpon>gonghuoshangshezhi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jiliangdanweishezhi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jiliangdanweishezhi.Designer.cs">
+      <DependentUpon>jiliangdanweishezhi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keshishezhi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keshishezhi.Designer.cs">
+      <DependentUpon>keshishezhi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menzhenshoufei.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menzhenshoufei.Designer.cs">
+      <DependentUpon>menzhenshoufei.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mingxitongji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mingxitongji.Designer.cs">
+      <DependentUpon>mingxitongji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="qiehuanyonghu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qiehuanyonghu.Designer.cs">
+      <DependentUpon>qiehuanyonghu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ruku.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ruku.Designer.cs">
+      <DependentUpon>ruku.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shoufeidanchaxun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shoufeidanchaxun.Designer.cs">
+      <DependentUpon>shoufeidanchaxun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shoufeitongji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shoufeitongji.Designer.cs">
+      <DependentUpon>shoufeitongji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shuaka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shuaka.Designer.cs">
+      <DependentUpon>shuaka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="taocan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="taocan.Designer.cs">
+      <DependentUpon>taocan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user.Designer.cs">
+      <DependentUpon>user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="xiangmudalei.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="xiangmudalei.Designer.cs">
+      <DependentUpon>xiangmudalei.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yaopinchandishezhi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yaopinchandishezhi.Designer.cs">
+      <DependentUpon>yaopinchandishezhi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yaopinguigeshezhi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yaopinguigeshezhi.Designer.cs">
+      <DependentUpon>yaopinguigeshezhi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yaopinjixingshezhi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yaopinjixingshezhi.Designer.cs">
+      <DependentUpon>yaopinjixingshezhi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yaopinyianjia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yaopinyianjia.Designer.cs">
+      <DependentUpon>yaopinyianjia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yishengshezhi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yishengshezhi.Designer.cs">
+      <DependentUpon>yishengshezhi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zhenliaoxiangmu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zhenliaoxiangmu.Designer.cs">
+      <DependentUpon>zhenliaoxiangmu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bingrendengji.resx">
+      <DependentUpon>bingrendengji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bingrenjilu.resx">
+      <DependentUpon>bingrenjilu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chuku.resx">
+      <DependentUpon>chuku.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chukudanwei.resx">
+      <DependentUpon>chukudanwei.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="drug.resx">
+      <DependentUpon>drug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gonghuoshangshezhi.resx">
+      <DependentUpon>gonghuoshangshezhi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jiliangdanweishezhi.resx">
+      <DependentUpon>jiliangdanweishezhi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keshishezhi.resx">
+      <DependentUpon>keshishezhi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menzhenshoufei.resx">
+      <DependentUpon>menzhenshoufei.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mingxitongji.resx">
+      <DependentUpon>mingxitongji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="qiehuanyonghu.resx">
+      <DependentUpon>qiehuanyonghu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ruku.resx">
+      <DependentUpon>ruku.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shoufeidanchaxun.resx">
+      <DependentUpon>shoufeidanchaxun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shoufeitongji.resx">
+      <DependentUpon>shoufeitongji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shuaka.resx">
+      <DependentUpon>shuaka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="taocan.resx">
+      <DependentUpon>taocan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user.resx">
+      <DependentUpon>user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="xiangmudalei.resx">
+      <DependentUpon>xiangmudalei.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yaopinchandishezhi.resx">
+      <DependentUpon>yaopinchandishezhi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yaopinguigeshezhi.resx">
+      <DependentUpon>yaopinguigeshezhi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yaopinjixingshezhi.resx">
+      <DependentUpon>yaopinjixingshezhi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yaopinyianjia.resx">
+      <DependentUpon>yaopinyianjia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yishengshezhi.resx">
+      <DependentUpon>yishengshezhi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zhenliaoxiangmu.resx">
+      <DependentUpon>zhenliaoxiangmu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\捕获.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\566282.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\411.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\management_add_256px_1112322_easyicon.net.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4A717E66-EF01-4E6E-B5FC-84C234CBDE55}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>房屋中介管理系统</RootNamespace>
+    <AssemblyName>房屋中介管理系统</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAbout.Designer.cs">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHuntingEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHuntingEdit.Designer.cs">
+      <DependentUpon>frmHuntingEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHuntinghouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHuntinghouse.Designer.cs">
+      <DependentUpon>frmHuntinghouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHuntingManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHuntingManagement.Designer.cs">
+      <DependentUpon>frmHuntingManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRentEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRentEdit.Designer.cs">
+      <DependentUpon>frmRentEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRenthouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRenthouse.Designer.cs">
+      <DependentUpon>frmRenthouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRentMangement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRentMangement.Designer.cs">
+      <DependentUpon>frmRentMangement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSaleEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSaleEdit.Designer.cs">
+      <DependentUpon>frmSaleEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSalehourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalehourse.Designer.cs">
+      <DependentUpon>frmSalehourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSaleManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSaleManagement.Designer.cs">
+      <DependentUpon>frmSaleManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSellingEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSellingEdit.Designer.cs">
+      <DependentUpon>frmSellingEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSellinghouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSellinghouse.Designer.cs">
+      <DependentUpon>frmSellinghouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSellingManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSellingManagement.Designer.cs">
+      <DependentUpon>frmSellingManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAbout.resx">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHuntingEdit.resx">
+      <DependentUpon>frmHuntingEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHuntinghouse.resx">
+      <DependentUpon>frmHuntinghouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHuntingManagement.resx">
+      <DependentUpon>frmHuntingManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRentEdit.resx">
+      <DependentUpon>frmRentEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRenthouse.resx">
+      <DependentUpon>frmRenthouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRentMangement.resx">
+      <DependentUpon>frmRentMangement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSaleEdit.resx">
+      <DependentUpon>frmSaleEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalehourse.resx">
+      <DependentUpon>frmSalehourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSaleManagement.resx">
+      <DependentUpon>frmSaleManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSellingEdit.resx">
+      <DependentUpon>frmSellingEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSellinghouse.resx">
+      <DependentUpon>frmSellinghouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSellingManagement.resx">
+      <DependentUpon>frmSellingManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

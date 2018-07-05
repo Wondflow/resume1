@@ -1,0 +1,114 @@
+ *{ margin: 0; padding: 0; text-decoration: none;}
+#container { width: 479px; height: 300px; /*border: 3px solid #333;*/ overflow: hidden; position: relative;float: left;margin-top: 10px;}
+#list { width: 4200px; height: 300px; position: absolute; z-index: 1;}
+#list img { float: left;}
+#buttons { position: absolute; height: 10px; width: 100px; z-index: 2; bottom: 20px; left: 250px;}
+#buttons span { cursor: pointer; float: left; border: 1px solid #fff; width: 10px; height: 10px; border-radius: 50%; background: #333; margin-right: 5px;}
+#buttons .on {  background: orangered;}
+.arrow { cursor: pointer; display: none; line-height: 39px; text-align: center; font-size: 36px; font-weight: bold; width: 40px; height: 40px;  position: absolute; z-index: 2; top: 180px; background-color: RGBA(0,0,0,.3); color: #fff;}
+.arrow:hover { background-color: RGBA(0,0,0,.7);}
+#container:hover .arrow { display: block;}
+#prev { left: 20px;}
+#next { right: 20px;}
+#photo
+{
+	height: 584px;
+	width: 500px;
+	float: right;
+	position: relative;
+	margin-top: 10px;
+}
+.pic
+{
+	position: absolute;
+	transition: all linear 3s;
+}
+.pic:hover
+{
+	transform: scale(1.5);
+	z-index: 14;
+}
+.image10
+{
+	transform: rotate(30deg);
+	top:50px;
+	left: 20px;
+	z-index: 1;
+}
+.image9
+{
+	transform: translate(200px) rotate(45deg);
+	top: 20px;
+	z-index: 2;
+}
+.image8
+{
+	transform: rotate(160deg);
+	bottom:0px;
+	left: 250px;
+	z-index: 3;
+}
+.image7
+{
+	transform:rotate(65deg);
+	top:100px;
+	left: 300px;
+	z-index: 4;
+}
+.image6
+{
+	transform:rotate(80deg);
+	top:187px;
+	left: 20px;
+	z-index: 5;
+}
+.image5
+{
+	transform: rotate(145deg);
+	top:400px;
+	left:0px;
+	z-index: 6;
+}
+.image4
+{
+	transform:rotate(100deg);
+	top:150px;
+	left: 300px;
+	z-index: 7;
+}
+.image3
+{
+	transform: rotate(120deg);
+	bottom: 100px;
+	left: 90px;
+	z-index: 8;
+}
+.image2
+{
+	transform: rotate(130deg);
+	top:80px;
+	left: 200px;
+	z-index: 9;
+}
+.image1
+{
+	transform: rotate(160deg);
+	bottom: 50px;
+	left: 300px;
+	z-index: 10;
+}
+#word
+{
+	height: 250px;
+	width: 400px;
+	/*border: #364261 2px solid;*/
+	clear: all;
+	float: left;
+	margin: 20px;
+	line-height: 30px;
+	transform: rotate(10deg);
+}
+p
+{
+	text-indent: 2em;
+}

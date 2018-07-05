@@ -1,0 +1,35 @@
+.img,.panel{
+	padding: 5px;
+	border: solid 1px #c3c3c3;
+}
+.img
+{
+	width:450px;
+	height: 30px;
+	text-align: center;
+	background-color:#C4E3F3;
+}
+.panel {
+	width: 450px;
+	height: 255px;
+	padding: 20px;
+	background-color:#66AFE9;
+}
+.detail
+{
+	width:450px;
+	height: 285px;
+	margin: 10px 20px;
+	border: 1px solid #888888;
+	float: left;
+	animation: myproject 3s ease-out;
+}
+@-moz-keyframes myproject{
+	
+	from{transform:translate(1030px) rotate(360deg);}
+	to{transform:translate(0px) rotate(0deg)}
+}
+.detail span
+{
+	color: red;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>无标题文档</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body bgcolor="#cae4ff">
+	<table align="center">
+            <tr>
+            	<td><img src="../images/logo.JPG" /></td>
+                <td>|<a href="../paipai1.html">拍拍首页</a></td>
+                 <td>|<a href="../paipai3.html">免费注册</a></td>
+                  <td>|<a href="../paipai4.html">关于拍拍</a></td>
+                   <td>|<a href="../paipai2.html">拍拍助理</a></td>
+                    <td>|联系我们</td>
+            </tr>
+        </table>
+        <table align="center" width="800" cellspacing="10">
+          <tr>     
+            <td ><!-- TemplateBeginEditable name="EditRegion3" -->EditRegion3<!-- TemplateEndEditable --></td>
+           </tr>
+        </table>
+        
+        <hr />
+        <table align="center" cellspacing="10">
+        	<tr>
+            	<td></td>
+                <td><font color="#3399CC">拍拍简介 </font></td>
+                <td><font color="#3399CC">拍拍动态 </font></td>
+                <td><font color="#3399CC">商务合作 </font></td>
+                <td><font color="#3399CC">客户中心 </font></td>
+                <td><font color="#3399CC">拍拍招聘 </font></td>
+                <td><font color="#3399CC">用户协议 </font></td>
+                <td><font color="#3399CC">版权说明 </font></td>
+            </tr>
+            <tr>
+            	<td rowspan="2"><img src="../images/ploice1.gif"/><img src="../images/ploice2.gif" /></td>
+                <td><font color="#3399CC">腾讯公司旗下网站 </font></td>
+                <td colspan="6">|拍拍版权所有@2005-2007</td>
+            </tr>
+            <tr>
+            	<td><font color="#3399CC">广东省通管局 </font></td>
+                <td colspan="6"><font color="#3399CC">增值电信业务经营许可证B2-20040031 </font></td>
+            </tr>
+        </table>
+</body>
+</html>

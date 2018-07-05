@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+#right li
+{
+	float:left;
+}
+#right li.title
+{
+	background:#CCC;
+	width:230px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	margin-left:10px;
+	border-bottom:#C33 1px solid;
+
+}
+#right li.title1
+{
+	background:#CCC;
+	width:230px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	margin-left:20px;
+	border-bottom:#C33 1px solid;
+}
+#right li#name
+{
+	background:#CCC;
+	width:230px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	margin-left:10px;
+	clear:left;
+	float:left;
+	border-bottom:#C33 1px solid;
+}
+p
+{
+	text-align:left;
+	margin-left:50px;
+}
+li p.x1
+{
+	text-align:center;
+	color:#999;
+	font-size:14px;
+	clear:left;
+}
+

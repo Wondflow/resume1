@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	width:900px;
+	margin:0 auto
+}
+#header
+{
+	width:900px;
+	height:138px;
+	border:#F00 1px solid;
+	background: #c9e5fb;
+}
+#header #nav
+{
+	height:30px;
+	width:900px;
+	background:#06F;
+}
+#header #nav ul li
+{
+	float:left;
+	text-align:center;
+	line-height:30px;
+	list-style:none;
+	font-size:14px;
+	margin-left:10px;
+}
+#header #nav ul li a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+#header #nav ul li a:hover
+{
+	color:#F00;
+}
+#left
+{
+	width:150px;
+	height:780px;
+	margin-top:20px;
+	float:left;
+}
+#left #first
+{
+	width:180px;
+	height:320px;
+	float:left;
+	border:1px solid #CCC;
+}
+p
+{
+	background:#069;
+	color:#FFF;
+	height:20px;
+	border-bottom:#999 1 solid;
+}
+#left #first ul li
+{
+	list-style:none;
+}
+#left #first ul li a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+#left #second
+{
+	margin-top:20px;
+	width:180px;
+	height:80px;;
+	border:1px solid #CCC;
+	float:left;
+}
+#left #second input
+{
+	margin-left:0px;
+}
+#left #third
+{
+	width:180px;
+	height:190px;
+	border:1px solid #CCC;
+	margin-top:20px;
+	float:left;
+	
+}
+#left #third img
+{
+   padding-left:15px;
+}
+span
+{
+	float:right;
+}
+span a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+#left #third img
+{
+	margin:5px 5px 0 5px;
+}
+#left #fourth
+{
+	margin-top:20px;
+	width:180px;
+	border:1px solid #CCC;
+	height:100px;
+	float:left;
+}
+#left #fourth select.op1
+{
+	margin:5px 5px 0 5px;
+}
+#right
+{
+	width:708px;
+	height:760px;
+	margin-top:20px;
+	margin-left:40px;
+	float:left;
+}
+#right #one
+{
+	height:210px;
+	width:710px;
+	border:1px solid #CCC;
+	float:left;
+}
+#right #one1
+{
+	height:210px;
+	width:480px;
+	border:1px solid #CCC;
+	float:left;
+}
+#right #one1 ul li
+{
+	list-style:none;
+	padding-left:10px;
+	border-bottom:1px dotted #999999;
+}
+#right #one1 ul li a
+{
+	color:#000;
+	text-decoration:none;
+}
+#right #one1 ul li a:hover
+{
+	color:#C63;
+}
+#right #one2
+{
+	float:right;
+}
+#right #two
+{
+	height:230px;
+	width:708px;
+	float:left;
+	margin-top:20px;
+	border:1px solid #CCC;
+}
+
+#right #two1
+{
+	height:220px;
+	width:480px;
+	border:1px solid #CCC;
+	float:left;
+}
+#right #two1 ul li
+{
+	list-style:none;
+	padding-left:10px;
+	border-bottom:1px dotted #999999;
+}
+#right #two1 ul li a
+{
+	color:#000;
+	text-decoration:none;
+}
+#right #two1 ul li a:hover
+{
+	color:#C63;
+}
+#right .two2
+{
+	height:100px;
+	width:210px;
+	float:right;
+	border:1px solid #CCC;
+	margin-bottom:10px;
+}
+#right #three
+{
+	height:272px;
+	width:708px;
+	float:left;
+	border:1px solid #CCC;
+	margin-top:20px;
+	
+}
+#right #three ul li
+{
+	float:left;
+	list-style:none;
+	margin-left:5px;
+}
+#right #three ul.ul1 li
+{
+	float:left;
+	list-style:none;
+	margin-left:20px;
+}
+#footer
+{
+	height:100px;
+	width:900px;
+	border:1px solid #CCC;
+	clear:left;
+	margin-top:20px;
+	background:#CCC;
+}
+#footer p
+{
+	text-align:center;
+	font-size:14px;
+	background:#CCC;
+	margin:20px 0px 20px 0px;
+}

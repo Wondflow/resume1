@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	list-style:none;
+}
+body
+{
+	width:867px;
+	margin:0 auto;
+	background:#2c383c url(../images/bgindex.jpg) repeat-x;
+}
+#contain
+{
+	width:867px;
+	height:323px;
+}
+#nav
+{
+	width:867px;
+	height:51px;
+	background:url(../images/linkbg.jpg);
+}
+#nav ul
+{
+	height:51px;
+	width:867px;
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	line-height:51px;
+}
+#nav ul li
+{
+	width:124px;
+	float:left;
+	text-align:center;
+	background:url(../images/linkr.gif) no-repeat center right;
+	
+}
+#nav ul li.end
+{
+	width:123px;
+	background:none;
+}
+#nav ul li a
+{
+	text-decoration:none;
+	color:#FFF;
+	font-weight:bold;
+	display:block;
+	font-size:12px;
+}
+#nav ul li a:hover
+{
+	text-decoration:underline;
+	color:#FF0;
+	font-size:16px;
+}
+#left
+{
+	width:270px;
+	height:1000px;
+    border-right:1px #CCC solid;
+	background:#FFF;
+	float:left;
+}
+#left embed
+{
+	height:200px;
+	width:260px;
+	margin:0 auto;
+	display:block;
+	margin-top:20px;
+}
+#right
+{
+	width:596px;
+	height:1000px;
+	background:#FFF;
+	float:left;
+}
+
+#bottom
+{
+	clear:left;
+	height:60px;
+	width:867px;
+	background:url(../images/footer1.gif);
+}
+#bottom li
+{
+	float:right;
+	color:#FFF;
+}
+

@@ -1,0 +1,54 @@
+/*证书*/
+#content .honor
+{
+	width: 205px;
+	height: 300px;
+	border: 2px solid #8699A4;
+	transform:rotate(-30deg);
+	margin-top:25px;
+	margin-left: 90px;
+	margin-right: 20px;
+	text-align: center;
+	float: left;
+	transition:all 2s linear;
+	animation: mypic 3s;
+	
+}
+@-moz-keyframes mypic{
+	from{transform: skew(0deg) translate(1024px);}
+	to{ skew(360deg) translate(0px)}
+}
+#content .honor,#content .honor img
+{
+	border-radius: 10px;
+}
+#content .honor dd
+{
+	margin-top: 10px;
+}
+#content .honor:hover
+{
+	transform: rotate(0deg);
+}
+/*技能*/
+#content #skill
+{
+	float: left;
+	width: 800px;
+	height: 200px;
+	margin-top: 50px;
+	margin-left: 130px;
+	background: #C7DDEF;
+	border: 2px solid #000099;
+	border-radius: 10px;
+	animation: myskill 5s ease-in-out;
+}
+@-moz-keyframes myskill{
+	from{transform: translate(1024px);}
+	to{transform: translate(0px);}
+}
+#content #skill p
+{
+	margin-left: 20px;
+	line-height: 20px;
+}

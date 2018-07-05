@@ -1,0 +1,351 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	width:1000px;
+	margin:0 auto;
+}
+#header
+{
+	width:1100px;
+	height:304px;
+	background: #9FF url(../images/3.png) no-repeat;
+	text-align:center;
+	border:1px solid #F00;
+}
+#header #time
+{
+	float:right;
+	margin-top:5px;
+}
+#header  span
+{
+	float:left;
+	margin-top:5px;
+	
+}
+#header #nav
+{
+	float:left;
+	clear:both;
+	width:800px;
+	height:90px;
+	background:#d72d2d;
+	margin:190px 150px 0 150px;
+}
+#header #nav #one
+{
+	height:90px;
+	width:250px;
+	/*border:1px solid #009;*/
+	float:left;
+}
+ ul.ul1
+{
+	margin-top:0px;
+	padding-left:0px;
+}
+
+ ul.ul1 li
+{
+	list-style:none;
+	float:left;
+	margin:9px 3px 3px 9px;
+}
+
+img
+{
+	float:left;
+}
+ ul.ul1 li a
+{
+	text-decoration:none;
+	color:#FFF;
+	font-size:12px;
+}
+ul.ul1 li a:hover
+{
+	color:#F93;
+}
+#header #nav #two
+{
+	float:left;
+	height:90px;
+	width:364px;
+	/*border:1px solid #009;*/
+}
+#header #nav #three
+{
+	float:right;
+	height:90px;
+	width:180px;
+	/*border:1px solid #009;*/
+}
+#second
+{
+	height:280px;
+	width:1100px;
+	border:1px solid #009;
+}
+#second #search
+{
+	height:25px;
+	width:1100px;
+	border:#0F0 1px solid;
+	background:#FFF;
+	line-height:25px;
+}
+#second #search span
+{
+	color:#F00;
+}
+#second #search input
+{
+	float:right;
+}
+#second #left
+{
+	width:320px;
+	height:250px;
+	background:#F00;
+	float:left;
+}
+#second #left p
+{
+	background:#CCC;
+	color:#000;
+}
+#second #middle
+{
+	width:450px;
+	height:250px;
+	float:left;
+	margin-left:10px;
+}
+#second #middle #m1
+{
+	width:448px;
+	height:30px;
+	border:1px #669966 solid;
+	line-height:30px;
+	background: #FFF url(../images/9.jpg) no-repeat;
+}
+#second #middle span.more
+{
+	float:right;
+	
+}
+#second #middle span.more a
+{
+	text-decoration:none;
+	color:#666;
+}
+#second #middle #m2
+{
+	width:448px;
+	height:135px;
+	font-size:12px;
+}
+#second #middle h3
+{
+	font-size:14px;
+	overflow:hidden;
+	color:#F00;
+}
+#second #middle p
+{
+	font-size:12px;
+}
+#second #middle p span
+{
+	color:#F00;
+}
+#second #middle #m2 a
+{
+	text-decoration:none;
+}
+#second #middle #m2 a:hover
+{
+	color:#F33;
+}
+#second #middle #m2 ul li a
+{
+	text-decoration:none;
+	color:#000;
+}
+
+#second #middle #m2 ul li a:hover
+{
+	color:#F00;
+}
+#second #right
+{
+	width:300px;
+	height:250px;
+	border:1px #00CC33 solid;
+	float:right;
+	background:url(../images/9.jpg) no-repeat;
+}
+#second #right p
+{
+	margin-left:15px;
+	color:#F00;
+}
+#second #right ul li
+{
+	float:left;
+	list-style:none;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+#second #right ul li a
+{
+	color:#FFF;
+}
+#second #right ul li a:hover
+{
+	color:#F63;
+}
+#third
+{
+    height:550px;
+	width:1100px;
+	border:1px solid #009;
+}
+#b1
+{
+	position:relative;
+	padding-left:0px;
+}
+#b1 li
+{
+	width:364px;
+	height:40px;
+	text-align:center;
+	float:left;
+	list-style:none;
+}
+#b1 li.b a
+{
+	display:block;
+	text-decoration:none;
+	line-height:40px;
+	color:#999;
+}
+#b1 #c1
+{
+	display:block;
+}
+#b1  li ul
+{
+	width:1100px;
+	height:500px;
+	position:absolute;
+	top:42px;
+	display:none;
+	left:0px;
+}
+#b1  li ul li
+{
+	margin-left:-40px;
+	width:1100px;
+	height:40px;
+	text-align:left;
+	list-style:none;
+	line-height:40px;
+	border:1px #CCCCCC solid;
+}
+#b1  li ul li.more1
+{
+	text-align:center;
+	background:#CCC;
+	color:#FFF;
+}
+#third  li.b a:hover
+{
+	display:block;
+	background:#F00;
+}
+#third a
+{
+	color:#000;
+}
+#third a:hover
+{
+	background:#CFF;
+}
+#fourth
+{
+	height:250px;
+	width:1100px;
+	border:1px #FF0099 solid;
+}
+#fourth ul li
+{
+	float:left;
+	list-style:none;
+	margin-left:20px;
+}
+
+#fourth ul li a
+{
+	color:#FFF;
+}
+#fourth ul li a:hover
+{
+	color:#0CF;
+}
+#fourth p
+{
+	clear:both;
+	background:#CCC;
+	height:20px;
+}
+
+#fourth .t1 ul li
+{
+	text-align:center;
+	margin-left:50px;
+	list-style:none;
+	float:left;
+	border:1px dotted #000;
+	margin-top:10px;
+}
+
+#footter
+{
+	height:220px;
+	width:1100px;
+	border:1px solid #609;
+	font-size:12px;
+}
+#footter #f1 li
+{
+	list-style:none;
+	float:left;
+	margin:0px 60px 20px 60px;
+}
+#footter #f2 li
+{
+	clear:left;
+	list-style:none;
+	text-align:center;
+	margin-bottom:10px;
+}
+#footter p
+{
+	margin-left:480px;
+}
+#footter  span
+{
+	float:right;
+}
+#footter a
+{
+	color:#000;
+	text-decoration:none;
+}
+#footter a:hover
+{
+	color:#F00;
+}

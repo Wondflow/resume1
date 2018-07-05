@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	color:#999;
+}
+#right p.x1
+{
+	margin-left:30px;
+}
+#content table
+{
+	width:90%;
+	background:#CCC;
+	border-collapse:collapse;
+	margin-left:30px;
+	left:30px;
+	
+}
+#content tr
+{
+	text-align:center;
+	border:1px #666666 solid;
+	background:#fff;
+}
+#content tr td
+{
+	text-align:center;
+	border:1px #666666 solid;
+}
+#content th
+{
+	background:#eee;
+	text-align:center;
+	border:1px #666666 solid;
+}
+#content td a
+{
+	color:#06C;
+	text-decoration:none;
+}
+#content tr:hover {
+	background:#cc0;
+}
+#content td a:hover {
+	color:#F63;
+	text-decoration:underline;
+	display:block;
+}
+
+p
+{
+	color:#999;
+}
+

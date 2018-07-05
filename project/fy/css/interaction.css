@@ -1,0 +1,62 @@
+#foot
+{
+	/*background: url(../photo/21.jpg) no-repeat*/
+	clear: all;
+}
+#article
+{
+	background-color: #e1fdef ;
+}
+#article p
+{
+	font-size: 36px;
+	text-align: center;
+	color: #364261;
+}
+#article .word
+{
+	height: 500px;
+	width: 200px;
+	transform: rotate(10deg);
+	margin-left: 20px;
+	color: #FF4500;
+	float: left;
+}
+#article .message
+{
+	height: 400px;
+	width: 400px;
+	/*background: url(../img/word.png) no-repeat;
+	margin-right: 300px;
+	float: right;*/
+	float: left;
+	margin-left: 100px;
+}
+textarea
+{
+	height: 300px;
+	width: 400px;
+}
+input
+{
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	margin: 20px 50px;
+}
+.pic1
+{
+	margin: 50px 50px;
+	transform: rotate(-30deg);
+	
+}
+.pic1:hover
+{
+	transform: rotate(0deg);
+	transition: all 1s linear;
+}
+#foot .img
+{
+	float:left;
+}
+
